@@ -786,7 +786,7 @@ button[type="submit"]:hover {
     }
 
     .foto-home img {
-        width: 600px;
+        width: 550px;
         height: 204px;
     }
 
@@ -1084,7 +1084,8 @@ button[type="submit"]:hover {
         font-size: 25px;
     }
 
-    .brand {
+    .brand,
+    .brand2 {
         display: none;
     }
 
@@ -1328,7 +1329,8 @@ button[type="submit"]:hover {
         font-size: 25px;
     }
 
-    .brand {
+    .brand,
+    brand2 {
         display: none;
     }
 
