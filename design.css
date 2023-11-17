@@ -773,7 +773,191 @@ button[type="submit"]:hover {
 
 
 /*RESPONSIVE*/
-@media(max-width:907px) {
+@media(max-width:539px) {
+    .navbar-links ul li a {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-links ul li {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .foto-home img {
+        width: 500px;
+        height: 204px;
+    }
+
+    .laborefgioi {
+        font-size: 20px;
+    }
+
+    .text-box {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+        align-items: center;
+    }
+
+    .text-box h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .immagine-presentazione img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .ilnegozio {
+        margin-top: 30px;
+    }
+
+    .ilnegozio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .ilnegozio p {
+        font-size: 20px;
+    }
+
+    .img-neg {
+        flex-direction: column;
+    }
+
+    .img-neg img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .illaboratorio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .illaboratorio p {
+        font-size: 20px;
+    }
+
+    .img-lab {
+        flex-direction: column;
+    }
+
+    .img-lab img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .orologi {
+        flex-direction: column;
+    }
+
+    .orologi img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .gioielli {
+        flex-direction: column;
+    }
+
+    .gioielli img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .collection {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .collection .item img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .collection .item .txt {
+        font-size: 25px;
+    }
+
+    .brand,
+    .brand2 {
+        display: none;
+    }
+
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials h1 {
+        font-size: 25px;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .contatti-orari {
+        padding-left: 0px;
+    }
+
+    .contatti-orari h1,
+    .contatti-orari p {
+        font-size: 15px;
+    }
+
+    .sx img {
+        width: 25px;
+        height: 12.5px;
+    }
+
+    .mid {
+        padding-left: 80px;
+    }
+
+    .follow-us svg {
+        display: none;
+    }
+
+    .follow-us a {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:907px) and (min-width:540px) {
     .navbar-links ul li a {
         font-size: 18px;
         padding: 0;
