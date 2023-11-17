@@ -896,18 +896,20 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
-    .item img {
+    .collection .item img {
         width: 350px;
         height: 350px;
     }
 
-    .item .txt {
+    .collection .item .txt {
         font-size: 25px;
     }
 
-    .brand {
+    .brand,
+    .brand2 {
         display: none;
     }
+
 
     .row {
         flex-direction: column;
