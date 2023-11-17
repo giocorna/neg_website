@@ -979,7 +979,7 @@ button[type="submit"]:hover {
     }
 
     .foto-home img {
-        width: 350px;
+        width: 400px;
         height: 204px;
     }
 
@@ -1008,7 +1008,7 @@ button[type="submit"]:hover {
 
     .text-box p {
         text-align: center;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .immagine-presentazione img {
@@ -1166,7 +1166,7 @@ button[type="submit"]:hover {
 
 
     .foto-home img {
-        width: 400px;
+        width: 600px;
         height: 204px;
     }
 
