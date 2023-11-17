@@ -1,0 +1,1373 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+Display:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: rgb(250, 253, 255);
+    margin: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+/*NAVBAR*/
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+
+.GC a {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.dal1991 a {
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-links ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-links ul li a {
+    color: black;
+    text-align: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: bold;
+    padding: 25px;
+
+}
+
+.navbar-links ul li :hover {
+    color: rgba(58, 58, 58, 0.617);
+    transition: 0.5s;
+}
+
+
+/*NEWS*/
+#shop {
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.news {
+    text-align: center;
+    align-items: center;
+}
+
+.news a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.whatsapp_logo {
+    color: white;
+    margin-right: 5px;
+}
+
+.freccia {
+    color: white;
+}
+
+/*FOTO HOME*/
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-home img {
+    width: 1210px;
+    height: 494px;
+    border-radius: 10px;
+}
+
+.laborefgioi {
+    margin-top: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*CHI SIAMO*/
+.text-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding-left: 110px;
+    padding-right: 110px;
+    align-items: center;
+}
+
+.text-box h2 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Great Vibes', cursive;
+}
+
+.text-box h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-box p {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.immagine-presentazione img {
+    height: 650px;
+    width: 650px;
+    border-radius: 10px;
+
+}
+
+/*IL NEGOZIO*/
+#negozio {
+    background-color: rgba(252, 243, 233, 0.646);
+}
+
+.ilnegozio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.ilnegozio h1 {
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ilnegozio p {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.img-neg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.img-neg img {
+    height: 650px;
+    width: 700px;
+    padding: 150px;
+    border-radius: 10px;
+}
+
+/*IL LABORATORIO*/
+#laboratorio {
+    background-color: rgba(252, 243, 233, 0.646);
+}
+
+.illaboratorio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.illaboratorio h1 {
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.illaboratorio p {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.img-lab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-lab img {
+    height: 650px;
+    width: 700px;
+    padding: 150px;
+    border-radius: 10px;
+
+}
+
+/*OROLOGI*/
+#inostriorologi h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+}
+
+#inostriorologi a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+#inostriorologi a:hover {
+    color: rgba(39, 37, 37, 0.765);
+    text-decoration: underline;
+    font-size: 19.5px;
+    transition: .5s;
+}
+
+.orologi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.orologi img {
+    width: 480px;
+    height: 620px;
+    border-radius: 10px;
+}
+
+/*GIOIELLI*/
+#inostrigioielli h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+}
+
+#inostrigioielli a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    position: relative;
+    margin-top: 30px;
+}
+
+#inostrigioielli a:hover {
+    color: rgba(39, 37, 37, 0.765);
+    text-decoration: underline;
+    font-size: 19.5px;
+    transition: .5s;
+}
+
+.gioielli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gioielli img {
+    width: 480px;
+    height: 620px;
+    border-radius: 10px;
+}
+
+/*BRAND*/
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 100px;
+}
+
+.unoaerreimg {
+    padding-right: 120px;
+}
+
+/*.milunaimg {
+    padding-left: 50px;
+    padding-right: 0;
+
+}
+
+.citizenimg {
+    padding-right: 50px;
+
+}*/
+
+.brand2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.brand2 img {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#brand h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+    padding-left: 40px;
+}
+
+#brand p {
+    padding-left: 60px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#brand a {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+
+
+/*RECENSIONI*/
+.testimonials {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    background-color: rgba(255, 247, 237, 0.86);
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.testimonial-col {
+    display: flex;
+    flex-basis: 44%;
+    border-radius: 10px;
+    text-align: left;
+    padding: 25px;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: antiquewhite;
+}
+
+.testimonial-col p {
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-col h2 {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.altre-recensioni {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.altre-recensioni a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+/*CONTATTACI SU WHATSAPP OPPURE*/
+#whatsapp {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    background-color: black;
+    width: 450px;
+    height: 60px;
+    justify-content: center;
+}
+
+.whatsapp {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+}
+
+.whatsapp a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.whatsapp a:hover {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s;
+    text-decoration: underline;
+}
+
+.oppure {
+    text-align: center;
+    font-size: 15px;
+}
+
+/*FORM*/
+#form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+
+    width: 90%;
+    max-width: 500px;
+    margin: 0% auto;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.form-group {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 7px;
+    resize: none;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.form h1 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*BOTTONE FORM*/
+button {
+    width: 20%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+button[type="submit"] {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(216, 210, 210);
+}
+
+/*CONTATTI E ORARI*/
+.contatti-orari h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.contatti-orari p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+/*MAPPA*/
+.maps {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contatti-maps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.maps p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+/*FINE PAGINA*/
+.endpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.sx {
+    padding-left: 40px;
+}
+
+.sx img {
+    width: 50px;
+    height: 25px;
+}
+
+.mid {
+    padding-left: 140px;
+}
+
+.mid h1 {
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+}
+
+.follow-us {
+    display: flex;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.follow-us svg {
+    color: white;
+}
+
+.follow-us button {
+    width: 25px;
+    background-color: rgba(255, 228, 196, 0);
+    padding: 0;
+}
+
+.follow-us a {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*PRODOTTI*/
+.scegli {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.buttonvisualizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+}
+
+.buttonvisualizza a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttonvisualizza :hover {
+    background-color: rgb(184, 184, 184);
+    transition: 1s;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item .txt {
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item .txt a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.item img {
+    border-radius: 5px;
+}
+
+.anelli {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.bracciali {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.collane {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.ciondoli {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.orecchini {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.orologi {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.imgprodotto img {
+    border-radius: 5px;
+}
+
+.nomeprodotto {
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.prezzoprodotto {
+    font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+.ivainclusa {
+    font-size: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 42px;
+    margin-top: 5px;
+}
+
+.descrizioneprodotto p {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media(max-width:907px) {
+    .navbar-links ul li a {
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-links ul li {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .foto-home img {
+        width: 600px;
+        height: 204px;
+    }
+
+    .laborefgioi {
+        font-size: 20px;
+    }
+
+    .text-box {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+        align-items: center;
+    }
+
+    .text-box h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .immagine-presentazione img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .ilnegozio {
+        margin-top: 30px;
+    }
+
+    .ilnegozio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .ilnegozio p {
+        font-size: 20px;
+    }
+
+    .img-neg {
+        flex-direction: column;
+    }
+
+    .img-neg img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .illaboratorio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .illaboratorio p {
+        font-size: 20px;
+    }
+
+    .img-lab {
+        flex-direction: column;
+    }
+
+    .img-lab img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .orologi {
+        flex-direction: column;
+    }
+
+    .orologi img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .gioielli {
+        flex-direction: column;
+    }
+
+    .gioielli img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .collection {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .item .txt {
+        font-size: 25px;
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials h1 {
+        font-size: 25px;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .contatti-orari {
+        padding-left: 0px;
+    }
+
+    .contatti-orari h1,
+    .contatti-orari p {
+        font-size: 15px;
+    }
+
+    .sx img {
+        width: 25px;
+        height: 12.5px;
+    }
+
+    .mid {
+        padding-left: 80px;
+    }
+
+    .follow-us svg {
+        display: none;
+    }
+
+    .follow-us a {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+}
+
+
+
+@media(max-width:1026px) and (min-width:908px) {
+
+    .navbar-links ul li a {
+        font-size: 13px;
+    }
+
+
+
+    .foto-home img {
+        width: 600px;
+        height: 204px;
+    }
+
+    .laborefgioi {
+        font-size: 20px;
+    }
+
+    .text-box {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+        align-items: center;
+    }
+
+    .text-box h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .immagine-presentazione img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .ilnegozio {
+        margin-top: 30px;
+    }
+
+    .ilnegozio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .ilnegozio p {
+        font-size: 20px;
+    }
+
+    .img-neg {
+        flex-direction: column;
+    }
+
+    .img-neg img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .illaboratorio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .illaboratorio p {
+        font-size: 20px;
+    }
+
+    .img-lab {
+        flex-direction: column;
+    }
+
+    .img-lab img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .orologi {
+        flex-direction: column;
+    }
+
+    .orologi img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .gioielli {
+        flex-direction: column;
+
+    }
+
+    .gioielli img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .collection {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .item .txt {
+        font-size: 25px;
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials h1 {
+        font-size: 25px;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .contatti-orari {
+        padding-left: 0px;
+    }
+
+    .contatti-orari h1,
+    .contatti-orari p {
+        font-size: 15px;
+    }
+
+    .sx img {
+        width: 25px;
+        height: 12.5px;
+    }
+
+    .mid {
+        padding-left: 80px;
+    }
+
+    .follow-us svg {
+        display: none;
+    }
+
+    .follow-us a {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width:1500px) and (min-width: 1250px) {
+    .img-neg img {
+        width: 610px;
+        height: 690px;
+    }
+
+    .img-lab {
+        flex-direction: column;
+    }
+
+    .img-lab img {
+        width: 610px;
+        height: 690px;
+    }
+
+    .img-neg {
+        flex-direction: column;
+    }
+
+    .orologi img {
+        width: 310px;
+        height: 390px;
+    }
+
+    .gioielli img {
+        width: 310px;
+        height: 390px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .collection {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .item .txt {
+        font-size: 25px;
+    }
+
+    .brand {
+        flex-direction: row;
+    }
+
+    .brand .milunaimg {
+        display: none;
+    }
+
+    .brand .citizenimg {
+        display: none;
+    }
+
+    .contatti-maps {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1250px) and (min-width: 1026px) {
+
+    .navbar-links ul li a {
+        font-size: 18px;
+        padding: 30;
+    }
+
+    .foto-home img {
+        width: 850px;
+        height: 354px;
+    }
+
+    .laborefgioi {
+        font-size: 20px;
+    }
+
+    .text-box {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+        align-items: center;
+    }
+
+    .text-box h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .text-box p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .immagine-presentazione img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .ilnegozio {
+        margin-top: 30px;
+    }
+
+    .ilnegozio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .ilnegozio p {
+        font-size: 20px;
+    }
+
+    .img-neg {
+        flex-direction: column;
+    }
+
+    .img-neg img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .illaboratorio h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .illaboratorio p {
+        font-size: 20px;
+    }
+
+    .img-lab {
+        flex-direction: column;
+    }
+
+    .img-lab img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    .orologi {
+        flex-direction: column;
+    }
+
+    .orologi img {
+        width: 320px;
+        height: 400px;
+
+    }
+
+    .gioielli {
+        flex-direction: column;
+
+    }
+
+    .gioielli img {
+        width: 320px;
+        height: 400px;
+
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .collection {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .item .txt {
+        font-size: 25px;
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .testimonials h1 {
+        font-size: 25px;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .contatti-orari {
+        padding-left: 0px;
+    }
+
+    .contatti-orari h1,
+    .contatti-orari p {
+        font-size: 15px;
+    }
+
+    .sx img {
+        width: 25px;
+        height: 12.5px;
+    }
+
+    .mid {
+        padding-left: 80px;
+    }
+
+    .follow-us svg {
+        display: none;
+    }
+
+    .follow-us a {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+}
