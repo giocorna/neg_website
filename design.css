@@ -11,6 +11,32 @@ body {
     scroll-behavior: smooth;
 }
 
+/*NOVITA'*/
+
+#novità {
+    background-color: rgb(255, 213, 162);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.novità {
+    text-align: center;
+    align-items: center;
+}
+
+.novità a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#novità .freccia {
+    color: black;
+}
+
 /*NAVBAR*/
 nav {
     display: flex;
