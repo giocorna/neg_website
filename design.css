@@ -662,7 +662,7 @@ button[type="submit"]:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
+    margin: 60px;
 }
 
 .item {
@@ -1146,8 +1146,7 @@ button[type="submit"]:hover {
         padding-left: 0px;
     }
 
-    .contatti-orari h1,
-    .contatti-orari p {
+    .contatti-orari h1 {
         font-size: 15px;
     }
 
