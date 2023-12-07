@@ -928,9 +928,13 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
+    .collection .item {
+        padding-left: 30px;
+    }
+
     .collection .item img {
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 480px;
     }
 
     .collection .item .txt {
