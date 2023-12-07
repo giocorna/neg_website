@@ -1139,13 +1139,26 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
+    .collection .item .txt {
+        font-size: 25px;
+    }
+
+    .collection .item {
+        padding-left: 30px;
+    }
+
     .collection .item img {
         width: 400px;
         height: 480px;
     }
 
-    .collection .item .txt {
-        font-size: 25px;
+    .imgprodotto img {
+        width: 400px;
+        height: 480px;
+    }
+
+    .nomeprodotto {
+        padding-right: 25px;
     }
 
     .brand,
@@ -1331,9 +1344,27 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
+    .collection .item {
+        padding-left: 30px;
+    }
+
+    .collection .item img {
+        width: 450px;
+        height: 540px;
+    }
+
+    .imgprodotto img {
+        width: 450px;
+        height: 540px;
+    }
+
+    .nomeprodotto {
+        padding-right: 25px;
+    }
+
     .item img {
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 540px;
     }
 
     .item .txt {
@@ -1432,6 +1463,33 @@ button[type="submit"]:hover {
         padding: 40px;
         justify-content: center;
         align-items: center;
+    }
+
+    .collection .item {
+        padding-left: 30px;
+    }
+
+    .collection .item img {
+        width: 500px;
+        height: 590px;
+    }
+
+    .imgprodotto img {
+        width: 500px;
+        height: 590px;
+    }
+
+    .nomeprodotto {
+        padding-right: 25px;
+    }
+
+    .item img {
+        width: 500px;
+        height: 590px;
+    }
+
+    .item .txt {
+        font-size: 25px;
     }
 
     .item img {
@@ -1584,6 +1642,33 @@ button[type="submit"]:hover {
         padding: 40px;
         justify-content: center;
         align-items: center;
+    }
+
+    .collection .item {
+        padding-left: 30px;
+    }
+
+    .collection .item img {
+        width: 450px;
+        height: 540px;
+    }
+
+    .imgprodotto img {
+        width: 450px;
+        height: 540px;
+    }
+
+    .nomeprodotto {
+        padding-right: 25px;
+    }
+
+    .item img {
+        width: 450px;
+        height: 540px;
+    }
+
+    .item .txt {
+        font-size: 25px;
     }
 
     .item img {
