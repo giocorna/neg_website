@@ -321,8 +321,8 @@ nav {
 }
 
 .gioielli img {
-    width: 540px;
-    height: 550px;
+    width: 560px;
+    height: 530px;
     border-radius: 10px;
 }
 
@@ -824,7 +824,7 @@ button[type="submit"]:hover {
     }
 
     .foto-home img {
-        width: 400px;
+        width: 420px;
         height: 204px;
     }
 
@@ -901,8 +901,8 @@ button[type="submit"]:hover {
     }
 
     .orologi img {
-        width: 320px;
-        height: 400px;
+        width: 370px;
+        height: 450px;
     }
 
     .gioielli {
@@ -910,8 +910,8 @@ button[type="submit"]:hover {
     }
 
     .gioielli img {
-        width: 320px;
-        height: 400px;
+        width: 410px;
+        height: 350px;
     }
 
     .box {
@@ -1110,8 +1110,8 @@ button[type="submit"]:hover {
     }
 
     .orologi img {
-        width: 320px;
-        height: 400px;
+        width: 370px;
+        height: 450px;
     }
 
     .gioielli {
@@ -1119,8 +1119,8 @@ button[type="submit"]:hover {
     }
 
     .gioielli img {
-        width: 320px;
-        height: 400px;
+        width: 410px;
+        height: 350px;
     }
 
     .box {
@@ -1313,18 +1313,17 @@ button[type="submit"]:hover {
     }
 
     .orologi img {
-        width: 320px;
-        height: 400px;
+        width: 390px;
+        height: 470px;
     }
 
     .gioielli {
         flex-direction: column;
-
     }
 
     .gioielli img {
-        width: 320px;
-        height: 400px;
+        width: 430px;
+        height: 350px;
     }
 
     .box {
@@ -1611,20 +1610,17 @@ button[type="submit"]:hover {
     }
 
     .orologi img {
-        width: 320px;
-        height: 400px;
-
+        width: 390px;
+        height: 470px;
     }
 
     .gioielli {
         flex-direction: column;
-
     }
 
     .gioielli img {
-        width: 320px;
-        height: 400px;
-
+        width: 430px;
+        height: 370px;
     }
 
     .box {
