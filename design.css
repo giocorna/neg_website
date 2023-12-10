@@ -135,35 +135,41 @@ nav {
 /*CHI SIAMO*/
 .text-box {
     display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
-    padding-left: 110px;
-    padding-right: 110px;
     align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
 }
 
 .text-box h2 {
     font-size: 35px;
     color: black;
     font-family: 'Great Vibes', cursive;
+    text-align: center;
 }
 
 .text-box h1 {
     margin-top: 30px;
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .text-box p {
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .immagine-presentazione img {
     height: 650px;
     width: 650px;
     border-radius: 10px;
+}
 
+.immagine-presentazione {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*IL NEGOZIO*/
@@ -827,26 +833,19 @@ button[type="submit"]:hover {
     }
 
     .text-box {
-        justify-content: space-between;
-        flex-direction: column;
-        margin-top: 50px;
-        padding-left: 150px;
-        padding-right: 150px;
-        align-items: center;
+        margin-top: 30px;
     }
 
     .text-box h2 {
-        text-align: center;
         font-size: 25px;
     }
 
     .text-box h1 {
-        text-align: center;
         font-size: 25px;
     }
 
     .text-box p {
-        text-align: center;
+
         font-size: 20px;
     }
 
@@ -960,6 +959,11 @@ button[type="submit"]:hover {
         flex-direction: column;
     }
 
+    .testimonials {
+        width: auto;
+        margin-top: 20px;
+    }
+
     .testimonials h1 {
         font-size: 25px;
     }
@@ -1038,27 +1042,20 @@ button[type="submit"]:hover {
     }
 
     .text-box {
-        justify-content: space-between;
-        flex-direction: column;
-        margin-top: 50px;
-        padding-left: 150px;
-        padding-right: 150px;
-        align-items: center;
+        margin-top: 30px;
     }
 
     .text-box h2 {
-        text-align: center;
         font-size: 25px;
     }
 
     .text-box h1 {
-        text-align: center;
         font-size: 25px;
     }
 
     .text-box p {
-        text-align: center;
-        font-size: 24px;
+
+        font-size: 20px;
     }
 
     .immagine-presentazione img {
@@ -1175,6 +1172,11 @@ button[type="submit"]:hover {
         font-size: 25px;
     }
 
+    .testimonials {
+        width: auto;
+        margin-top: 20px;
+    }
+
     .maps {
         display: none;
     }
@@ -1242,28 +1244,22 @@ button[type="submit"]:hover {
     }
 
     .text-box {
-        justify-content: space-between;
-        flex-direction: column;
-        margin-top: 50px;
-        padding-left: 150px;
-        padding-right: 150px;
-        align-items: center;
+        margin-top: 30px;
     }
 
     .text-box h2 {
-        text-align: center;
         font-size: 25px;
     }
 
     .text-box h1 {
-        text-align: center;
         font-size: 25px;
     }
 
     .text-box p {
-        text-align: center;
+
         font-size: 20px;
     }
+
 
     .immagine-presentazione img {
         height: 350px;
