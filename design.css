@@ -778,6 +778,8 @@ button[type="submit"]:hover {
     margin-top: 5px;
 }
 
+
+
 .descrizioneprodotto p {
     font-family: 'Poppins', sans-serif;
     padding-left: 40px;
@@ -1002,6 +1004,10 @@ button[type="submit"]:hover {
     .products {
         flex-direction: column;
         align-items: center;
+    }
+
+    .descrizioneprodotto {
+        justify-content: flex-start;
     }
 
 }
