@@ -1014,9 +1014,6 @@ button[type="submit"]:hover {
 }
 
 
-
-
-
 @media(max-width:907px) and (min-width:540px) {
     .navbar-links ul li a {
         font-size: 14px;
@@ -1030,8 +1027,8 @@ button[type="submit"]:hover {
     }
 
     .foto-home img {
-        width: 400px;
-        height: 204px;
+        width: 540px;
+        height: 244px;
     }
 
     .laborefgioi {
