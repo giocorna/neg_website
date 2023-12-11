@@ -1219,6 +1219,16 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
+    #orecchini .box .collection .item .img img {
+        width: 440px;
+        height: 440px;
+    }
+
+    #orologi .box .collection .item .img img {
+        width: 440px;
+        height: 580px;
+    }
+
 }
 
 
@@ -1413,6 +1423,16 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
+    #orecchini .box .collection .item .img img {
+        width: 460px;
+        height: 460px;
+    }
+
+    #orologi .box .collection .item .img img {
+        width: 460px;
+        height: 580px;
+    }
+
 }
 
 @media(max-width:1500px) and (min-width: 1250px) {
@@ -1512,6 +1532,16 @@ button[type="submit"]:hover {
     .products {
         flex-direction: column;
         align-items: center;
+    }
+
+    #orecchini .box .collection .item .img img {
+        width: 500px;
+        height: 500px;
+    }
+
+    #orologi .box .collection .item .img img {
+        width: 500px;
+        height: 600px;
     }
 }
 
@@ -1717,6 +1747,16 @@ button[type="submit"]:hover {
     .products {
         flex-direction: column;
         align-items: center;
+    }
+
+    #orecchini .box .collection .item .img img {
+        width: 480px;
+        height: 480px;
+    }
+
+    #orologi .box .collection .item .img img {
+        width: 480px;
+        height: 600px;
     }
 
 }
