@@ -40,6 +40,8 @@ body {
 /*NAVBAR*/
 .header {
     background-color: white;
+    height: 160px;
+    margin: 0;
 }
 
 nav {
