@@ -807,8 +807,8 @@ button[type="submit"]:hover {
     }
 
     .foto-home img {
-        width: 417px;
-        height: 204px;
+        width: 360px;
+        height: 194px;
     }
 
     .laborefgioi {
@@ -879,6 +879,10 @@ button[type="submit"]:hover {
         padding: 20px;
     }
 
+    #inostriorologi h1 {
+        font-size: 45px;
+    }
+
     .orologi {
         flex-direction: column;
     }
@@ -888,12 +892,16 @@ button[type="submit"]:hover {
         height: 450px;
     }
 
+    #inostrigioielli h1 {
+        font-size: 45px;
+    }
+
     .gioielli {
         flex-direction: column;
     }
 
     .gioielli img {
-        width: 410px;
+        width: 370px;
         height: 350px;
     }
 
