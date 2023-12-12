@@ -911,26 +911,23 @@ button[type="submit"]:hover {
         align-items: center;
         justify-content: center;
         margin: 0;
+        padding: 0;
     }
 
     .collection {
-        padding: 40px;
+        padding: 0px;
         justify-content: center;
         align-items: center;
     }
 
-    .collection .item {
-        padding-left: 30px;
-    }
-
     .collection .item img {
-        width: 400px;
-        height: 510px;
+        width: 360px;
+        height: 400px;
     }
 
     .imgprodotto img {
-        width: 400px;
-        height: 540px;
+        width: 360px;
+        height: 500px;
     }
 
     .nomeprodotto {
@@ -1011,8 +1008,8 @@ button[type="submit"]:hover {
     }
 
     .item .img img {
-        width: 400px;
-        height: 530px;
+        width: 340px;
+        height: 470px;
     }
 
 }
