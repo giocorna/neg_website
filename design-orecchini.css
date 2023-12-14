@@ -508,6 +508,12 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+.form .privacy {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin: 10px;
+}
+
 /*BOTTONE FORM*/
 button {
     width: 20%;
@@ -587,7 +593,8 @@ button[type="submit"]:hover {
 
 .mid h1 {
     font-size: 20px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
     color: white;
 }
 
@@ -676,6 +683,10 @@ button[type="submit"]:hover {
     color: black;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+}
+
+.item .txt :hover {
+    text-decoration: underline;
 }
 
 .item img {
