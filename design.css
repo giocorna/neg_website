@@ -629,7 +629,7 @@ button[type="submit"]:hover {
     margin-top: 40px;
     margin-bottom: 40px;
     width: 150px;
-    height: 40px;
+    height: 60px;
 }
 
 .buttonvisualizza a {
@@ -638,6 +638,23 @@ button[type="submit"]:hover {
     width: 130px;
     text-decoration: none;
     text-align: center;
+}
+
+.contattaci{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.contattaci a{
+    text-decoration: underline;
+    color: black;
+}
+
+.contattaci p :hover{
+    color: rgb(155, 155, 155);
 }
 
 
